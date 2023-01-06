@@ -1,0 +1,188 @@
+header {
+
+
+    background-image: url("images/donation6.jpg"), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    ;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: multiply;
+
+
+
+}
+
+.banner {
+
+    text-align: center;
+}
+
+.banner h1 {
+
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+
+button {
+
+    padding: 16px 12px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    color: white;
+
+}
+
+.banner p {
+
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    text-align: center;
+    margin-top: 130px;
+}
+
+.price {
+
+    display: flex;
+}
+
+
+.taka {
+
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+
+}
+
+.another {
+
+
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.card {
+
+    display: flex;
+    margin: 30px 40px;
+
+
+}
+
+.cat {
+
+    padding: 54px 22px ;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-right: 24px;
+
+    text-align: left;
+
+}
+
+.cat1 {
+
+    padding: 54px 22px ;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    margin-right: 24px;
+
+    text-align: left;
+
+}
+
+.cat2 {
+
+    padding: 54px 22px ;
+    background: #FFF4D6;
+    border-radius: 5px;
+    margin-right: 24px;
+
+    text-align: left;
+
+}
+
+.donate-us {
+
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area {
+    width: 50%;
+   
+}
+
+.image-area {
+    width: 456px;
+    height: 477px;
+
+}
+
+.last-area {
+
+
+    background-color: #FFF4D6;
+    width: 809px;
+    height: 200px;
+
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+input {
+
+    border: 0;
+    padding: 10px;
+    width: 275px;
+    background-color: #D9D9D9;
+}
+
+p {
+
+    color: #707070;
+}
