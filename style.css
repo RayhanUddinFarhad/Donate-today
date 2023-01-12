@@ -39,6 +39,14 @@ button {
 
 }
 
+button:hover {
+
+
+    border: 1px solid red ;
+    background-color: white;
+    color: #FF5959;
+}
+
 .banner p {
 
     font-size: 18px;
