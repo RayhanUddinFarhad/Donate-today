@@ -1,3 +1,11 @@
+*{
+
+
+    margin: 0;
+}
+
+
+
 header {
 
 
@@ -14,6 +22,11 @@ header {
 
 
 
+}
+
+.Donate-today {
+
+    gap: 30px;
 }
 
 .banner {
@@ -36,6 +49,8 @@ button {
     border: 0;
     font-weight: bold;
     color: white;
+    margin: 15px;
+
 
 }
 
@@ -119,6 +134,7 @@ section {
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     margin-right: 24px;
+    
 
     text-align: left;
 
@@ -171,6 +187,7 @@ section {
 
     font-weight: bold;
     font-size: 45px;
+    margin-bottom: 10px;
 }
 
 .image-area {
@@ -207,9 +224,20 @@ p {
 
     color: #707070;
 }
+.last-one {
 
 
-@media screen and (max-width:576px) {
+    gap: 20px;
+}
+
+@media screen and (max-width:700px) {
+
+
+    button {
+
+
+        margin: 15px;
+    }
 
 
     .price {
@@ -250,7 +278,7 @@ p {
     .text-area {
         width: 100%;
 
-        margin-bottom: 20px;
+        margin: 20%;
     }
     .text-area-h1 {
 
@@ -259,9 +287,22 @@ p {
     }
 
     .input-area {
-
-        padding: 0 40px;
-
+       flex-direction: column;
 
     }
+
+    .banner h1 {
+
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .banner p {
+
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    
+    
 }
