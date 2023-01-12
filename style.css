@@ -142,14 +142,27 @@ section {
 
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     justify-content: center;
     align-items: center;
 }
+.donate-us-2 {
 
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
 .text-area {
     width: 50%;
    
+}
+
+.text-area-h1 {
+
+    font-weight: bold;
+    font-size: 45px;
 }
 
 .image-area {
@@ -185,4 +198,62 @@ input {
 p {
 
     color: #707070;
+}
+
+
+@media screen and (max-width:576px) {
+
+
+    .price {
+
+        flex-direction: column;
+    }
+    .card {
+
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .donate-us {
+
+
+        flex-direction: column-reverse;
+        border-bottom: 1px solid gray ;
+    }
+
+    .donate-us-2 {
+
+        flex-direction: column;
+        border-bottom: 1px solid gray ;
+
+    }
+
+    .image-area {
+
+        width: 100%;
+
+    }
+
+    .image-area img {
+
+        width: 100%;
+    }
+
+    .text-area {
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+    .text-area-h1 {
+
+
+        font-size: 30px;
+    }
+
+    .input-area {
+
+        padding: 0 40px;
+
+
+    }
 }
